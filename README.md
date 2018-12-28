@@ -30,7 +30,7 @@ In order to your plugin to be loaded by _**PluginManager**_ it has to implement
 **_Plugin_** project into yours or by the **_Nuget_** package (added later on), then, simply implements the interface in **ONLY ONE CLASS** of your plugin (_OnEnable_ method will become the entry point of your plugin). An example class:
 
 ```csharp
-using UpsettingBoy.CSharpPlugin
+using UpsettingBoy.CSharpPlugin;
 
 public class MainClass : IPlugin
 {
